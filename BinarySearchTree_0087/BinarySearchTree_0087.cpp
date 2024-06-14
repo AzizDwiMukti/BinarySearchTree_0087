@@ -93,4 +93,9 @@ public:
 			preorder(ptr->rightchild);
 		}
 	}
+
+	void postoreder(Node* ptr)
+	{
+
+	}
 };

@@ -54,4 +54,9 @@ public:
 			parent->rightchild = newNode;
 		}
 	}
+
+	void search(string element, Node*& parent, Node*& currentNode)
+	{
+
+	}
 };

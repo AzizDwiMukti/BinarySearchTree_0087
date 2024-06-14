@@ -86,6 +86,11 @@ public:
 
 	void preorder(Node* ptr)
 	{
-
+		if (ROOT == NULL)
+		{
+			cout << ptr->info << " ";
+			preorder(ptr->leftchild);
+			preorder(ptr->rightchild);
+		}
 	}
 };
